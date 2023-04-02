@@ -3,7 +3,7 @@ import { CheckIcon } from '@heroicons/react/24/solid'
 const SinglePlan = ({ name, price, features }) => {
   console.log(name);
   return (
-    <div className=" bg-gradient-to-bl text-slate-800  from-sky-50 to-pink-500 p-10 w-96 lg:w-fit mx-auto lg:p-16 rounded-tr-[99px] rounded-bl-[99px] relative space-y-2">
+    <div className=" bg-gradient-to-bl text-slate-800  from-sky-50 to-pink-500 p-10 w-80 lg:w-fit mx-auto lg:p-16 rounded-tr-[99px] rounded-bl-[99px] relative space-y-2">
       <h1 className="text-2xl  text-center pb-3 font-semibold">{name}</h1>
       <hr  className="w-28 border-2 rounded-lg border-violet-500  mx-auto "/>
       <h2 className="text-center text-4xl py-4 font-bold">{price}</h2>
