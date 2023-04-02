@@ -1,0 +1,43 @@
+{
+    "title": "Choose a Plan",
+    "subtitle": "Upgrade to premium and unlock all features",
+    "plans": [
+      {
+        "name": "Basic Plan",
+        "price": "$9.99/month",
+        "features": [
+          "Unlimited access to music library",
+          "Ad-supported playback",
+          "Offline playback for up to 30 songs",
+          "Shuffle play only",
+          "Limited skips"
+        ]
+      },
+      {
+        "name": "Premium Plan",
+        "price": "$14.99/month",
+        "features": [
+          "Unlimited access to music library",
+          "No ads",
+          "Offline playback for unlimited songs",
+          "On-demand playback",
+          "Unlimited skips",
+          "High-quality streaming"
+        ]
+      },
+      {
+        "name": "Family Plan",
+        "price": "$19.99/month",
+        "features": [
+          "Unlimited access to music library",
+          "No ads",
+          "Offline playback for unlimited songs",
+          "On-demand playback",
+          "Unlimited skips",
+          "High-quality streaming",
+          "Up to 6 accounts"
+        ]
+      }
+    ]
+  }
+  
