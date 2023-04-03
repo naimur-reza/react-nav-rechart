@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import SinglePlan from "./SinglePlan";
+import Nav from "../Nav/Nav";
 
 const Plans = () => {
   const [plans, setPlan] = useState([]);

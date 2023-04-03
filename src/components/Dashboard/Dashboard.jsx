@@ -46,15 +46,15 @@ const Dashboard = () => {
     },
   ];
   return <>
-  <h1 className="text-3xl font-semibold text-center py-3">Our Latest Achievement</h1>
+  <h1 className="text-3xl font-bold text-center py-3">Dashboard</h1>
 
   <div className="flex justify-center py-10">
 
-        <LineChart  width={400} height={200} data={resultsData}>
+        <LineChart className="w-full"  width={500} height={200} data={resultsData}>
             <Line type="monotone" stroke="#8884d8" dataKey={'physics'}></Line>
             <Line type="monotone" stroke="#8884d8" dataKey={'chemistry'}></Line>
             <Line type="monotone" stroke="#8884d8" dataKey={'higherMath'}></Line>
-            <XAxis dataKey="id" />
+            <XAxis dataKey="" />
           <YAxis />
           <Tooltip />
         </LineChart>

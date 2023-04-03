@@ -6,9 +6,8 @@ import Plans from './components/Plans/Plans';
 const App = () => {
   return (
     <div>
-      <Nav></Nav>
-      <Plans></Plans>
-      <Dashboard/>
+      
+      {/* <Dashboard/> */}
     </div>
   );
 };
