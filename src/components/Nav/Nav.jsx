@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import { Link, Outlet } from "react-router-dom";
+import ActiveLink from "../ActiveLink/ActiveLink";
 const Nav = () => {
   const [show, setShow] = useState(true);
 
@@ -30,7 +31,7 @@ const Nav = () => {
         {items.map((it) => (
           <li className="list-none">
             {" "}
-            <Link to={`/${it}`}>{it}</Link>
+            <ActiveLink to={`/${it}`}>{it}</ActiveLink>
           </li>
         ))}
       </nav>
